@@ -28,7 +28,8 @@ app.use(cors()); // Add this line to enable CORS
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://127.0.0.1:27017/NeuroCare')
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/NeuroCare';
+mongoose.connect(MONGODB_URI)
   .then(() => {
     console.log('Connected to MongoDB successfully');
   })
