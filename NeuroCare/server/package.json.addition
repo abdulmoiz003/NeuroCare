@@ -1,0 +1,6 @@
+// Add this to your package.json dependencies
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0"
+  }
+}

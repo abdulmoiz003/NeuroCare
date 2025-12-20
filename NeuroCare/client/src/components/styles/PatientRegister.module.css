@@ -1,0 +1,104 @@
+.PatientSignupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .PatientSignupBox {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 500px;
+    box-shadow: 10px 10px 10px 10px lightblue;
+  }
+  .SignupSideBar{
+    box-shadow: 10px 10px 10px 10px lightblue;
+  background-color: #007bff;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .SignupH{
+    margin-top: 100px;
+    color:white;
+    font-size: 2rem;
+  }
+  .SignupS{
+    color:white;
+    font-size: 1rem;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .ErrorMessage {
+    color: red;
+  }
+  
+  
+  .InputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .InputContainer label {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .InputContainer input[type="text"],
+  .InputContainer input[type="number"],
+  .InputContainer input[type="tel"],
+  .InputContainer input[type="email"],
+  .InputContainer input[type="password"] {
+    width: 100%;
+    padding: 3px;
+    
+    border: 2px solid #007bff;
+    border-radius: 7px;
+  }
+  
+  .InputContainer input[type="radio"] {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  
+  .SignupButton {
+    margin-left: 160px;
+    width: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    
+    border-radius: 9px;
+    cursor: pointer;
+     border: 1px 
+     
+  }
+  
+  .SignupButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .LoginLink {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 150px;
+  }
+  
+  .LoginLink a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .LoginLink a:hover {
+    text-decoration: underline;
+  }

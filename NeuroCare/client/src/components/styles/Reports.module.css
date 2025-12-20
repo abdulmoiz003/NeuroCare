@@ -1,0 +1,252 @@
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #007bff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.noReports {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.reportCard {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.reportCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reportCard h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.reportDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+}
+
+.reportDetails p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.reportDetails p span {
+  display: inline-block;
+  min-width: 200px; /* Adjust as needed for alignment */
+  font-weight: bold;
+  color: #555;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center; /* Aligns logo and text vertically */
+  justify-content: center; /* Centers items horizontally */
+  margin-top: 30px; /* Adds space above the logo text */
+  margin-left: 235px;
+}
+
+.logo {
+  width: 50px; /* Adjust the width of the logo as needed */
+  height: auto; /* Maintains aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logoText {
+  font-size: 14px; /* Adjust font size as needed */
+  color: #555; /* Adjust color as needed */
+}
+
+/* Add to Reports.module.css */
+.shareButton {
+  width: 20%;
+  margin-left: 140px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shareButton:hover {
+  background-color: #0056b3;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.neurologistList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.neurologistList li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.closeButton {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Add to Reports.module.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dimmed background */
+  z-index: 900; /* Below modal */
+}
+
+.closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 34px;
+  color: rgb(224, 56, 56); /* Close button color */
+  cursor: pointer;
+}
+
+.neurologistItem {
+  color: #007bff; /* Link color */
+  cursor: pointer;
+}
+
+.neurologistItem:hover {
+  /* text-decoration: underline; */
+  color: #204b7a;
+}
+
+
+
+
+
+
+
+
+   /* Sidebar Styles */
+   .sidebar {
+    width: 200px;
+    background-color: #007bff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border-radius: 8px; */
+  }
+  
+  .sidebarLink {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .sidebarLink:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .logoutButton {
+    margin-top: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .logoutButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .logoutImage {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  /* NeuroCare Logo and Heading */
+  .neurocareLogoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .neurocareLogoImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff; /* White border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Active Link Styling */
+  .activeLink {
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+  }

@@ -1,0 +1,175 @@
+.Container {
+  
+  
+    max-width: 100%;
+    /* margin: 20px auto; */
+    font-family: 'Helvetica Neue', sans-serif;
+    
+    margin-left: 250px;
+   
+  
+  }
+
+  /* Sidebar Styles */
+  .sidebar {
+    width: 200px;
+    background-color: #007bff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border-radius: 8px; */
+  }
+  
+  .sidebarLink {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .sidebarLink:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .logoutButton {
+    margin-top: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .logoutButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .logoutImage {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  /* NeuroCare Logo and Heading */
+  .neurocareLogoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .neurocareLogoImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff; /* White border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Active Link Styling */
+  .activeLink {
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .patient_table_container {
+      margin-top: 30px;
+    background-color: #f9f9f9; /* Softer background color */
+    /* Increased padding for more spacing */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+     
+    overflow-y: auto;  /* Enable vertical scrolling */
+     overflow-x: auto;
+     max-width: auto;
+    
+     margin-top: 40px;
+     margin-right: 150px;
+  
+  }
+  .patient_table_container thead {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1; /* Optional: Set a background color for the header */
+    z-index: 1; /* Ensure the header stays on top of the scrolling content */
+  }
+  
+  /* Table Styling */
+  .patient_table_container  table {
+  
+    width: 1130px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+    
+    /* border-radius: 10%; */
+  }
+  
+  .patient_table_container table th, table td {
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    padding: 20px; /* Increased padding for better spacing */
+    text-align: center; /* Align text to left */
+    
+    
+  }
+  
+  .patient_table_container table th {
+    background-color: #007bff; /* Keep header background color to blue */
+    color: #fff; /* Header text color white */
+    text-transform: uppercase; /* Uppercase header text */
+    letter-spacing: 0.05em; /* Slight letter spacing */
+  }
+  .gender_box {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: rgb(248, 244, 244);
+    font-size: 1.5rem;
+  }
+  
+  .male {
+    background-color: #007bff;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  
+  .female {
+    background-color:  #007bff;
+     width: 300px;
+     margin-left: 200px;
+     height: 150px;
+     text-align: center;
+      border-radius: 20px;
+  }
+  .delete {
+      width: 90px; 
+    background-color: rgb(233, 38, 38);
+  }
+
+  .delete:hover {
+    background-color: rgb(210, 35, 35);
+  }

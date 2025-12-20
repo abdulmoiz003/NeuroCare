@@ -1,0 +1,36 @@
+/* PaymentSuccess.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #f9f9f9; /* Light background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .loading {
+    font-size: 24px;
+    color: #555; /* Gray color for loading message */
+  }
+  
+  .success {
+    font-size: 24px;
+    color: #4caf50; /* Green color for success message */
+   
+    padding: 10px;
+    border: 2px solid #4caf50; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #e8f5e9; /* Light green background */
+  }
+  
+  .error {
+    font-size: 20px;
+    color: #f44336; 
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #f44336; /* Red border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffebee; 
+  }

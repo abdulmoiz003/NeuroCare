@@ -1,0 +1,130 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prescriptionCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prescriptionCard h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #2c3e50;
+  }
+  
+  .prescriptionCard p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .prescriptionCard ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .prescriptionCard li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  
+     /* Sidebar Styles */
+.sidebar {
+    width: 200px;
+    background-color: #007bff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border-radius: 8px; */
+  }
+  
+  .sidebarLink {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .sidebarLink:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .logoutButton {
+    margin-top: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .logoutButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .logoutImage {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  /* NeuroCare Logo and Heading */
+  .neurocareLogoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .neurocareLogoImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff; /* White border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Active Link Styling */
+  .activeLink {
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+  }

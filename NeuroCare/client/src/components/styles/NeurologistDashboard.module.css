@@ -1,0 +1,419 @@
+
+
+/* Base Styling */
+.dashboardContainer {
+  background-color: #f0f4f8;
+  /* padding: 20px; */
+  /* border-radius: 15px; */
+  /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); */
+  max-width: 1350px;
+  /* margin: 20px auto; */
+  font-family: 'Helvetica Neue', sans-serif;
+  position: relative;
+  margin-left: 190px;
+  height: 100%;
+  min-height: 720px;
+}
+/* Top Section */
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.welcomeMessage {
+  font-size: 2.5rem;
+  color: #007bff;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.profileContainer {
+  position: relative;
+}
+
+.profileLink {
+  display: flex;
+  align-items: center;
+}
+
+.profileImage {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  transition: transform 0.3s ease;
+}
+
+.profileImage:hover {
+  transform: scale(1.1);
+}
+
+/* Main Section */
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Menu Section */
+.menuContainer {
+  width: 60%;
+}
+
+.largeButton {
+  display: block;
+  width: 100%;
+  height: 160px;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.largeButton:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.largeButton img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.buttonText {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Grid Buttons */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.smallButton {
+  display: block;
+  width: 100%;
+  height: 160px;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.smallButton:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.smallButton img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.smallButton .buttonText {
+  font-size: 1.2rem;
+}
+
+/* Calendar Section */
+.calendarContainer {
+  width: 35%;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.calendarHeading {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.calendar {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.currentTime {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Add smooth animations for hover effects */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background-color: #007bff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border-radius: 8px; */
+}
+
+.sidebarLink {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+.sidebarLink:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.logoutButton {
+  margin-top: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logoutButton:hover {
+  background-color: #0056b3;
+}
+
+.logoutImage {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Main content adjusted to leave space for sidebar */
+.mainContent {
+  margin-left: 90px;
+  /* padding: 20px; */
+  width: 1200px;
+
+
+}
+
+/* NeuroCare Logo and Heading */
+.neurocareLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.neurocareLogoImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff; /* White border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Active Link Styling */
+.activeLink {
+  background-color: #0056b3;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+
+/* Media Queries for Responsiveness */
+
+/* For smaller tablets and devices with max-width of 1024px */
+@media (max-width: 1024px) {
+  .dashboardContainer {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .sidebar {
+    width: 180px;
+    padding: 15px;
+    /* height: 100px; */
+  }
+
+  .sidebarLink {
+    font-size: 1rem;
+  }
+
+  .neurocareLogoImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mainContent {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+  }
+
+  .largeButton {
+    height: 140px;
+  }
+
+  .smallButton {
+    height: 140px;
+  }
+
+  .calendarContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* For devices with max-width of 768px */
+@media (max-width: 768px) {
+  .dashboardContainer {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    gap: 10px;
+    height: 100px;
+  }
+
+  .sidebarLink {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .mainContent {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .menuContainer {
+    width: 100%;
+  }
+
+  .largeButton {
+    height: 120px;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .smallButton {
+    height: 120px;
+  }
+
+  .calendarContainer {
+    display: none; /* Hide Calendar for smaller screens */
+  }
+
+  .welcomeMessage {
+    font-size: 2rem;
+  }
+}
+
+/* For devices with max-width of 480px (mobile phones) */
+@media (max-width: 480px) {
+  .dashboardContainer {
+    padding: 10px;
+  }
+
+  .sidebar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 120px; /* Reduced height */
+    width: 100%; /* Full width */
+    padding: 0px; /* Reduced padding */
+  }
+
+  .sidebarLink {
+    font-size: 0.7rem; /* Smaller font size */
+    padding: 4px; /* Smaller padding */
+  }
+
+  .neurocareLogoImage {
+    display: none;
+  }
+
+  .mainContent {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .largeButton {
+    height: 100px;
+  }
+
+  .smallButton {
+    height: 100px;
+  }
+
+  .buttonText {
+    font-size: 1rem;
+  }
+
+  .calendarContainer {
+    display: none; /* Hide Calendar for smaller screens */
+  }
+
+  .calendarHeading {
+    font-size: 1.5rem;
+  }
+
+  .profileImage {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .welcomeMessage {
+    /* font-size: 1.5rem; */
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+/* About.module.css */
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .feature, .subFeature {
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    color: #007bff;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .subFeature h4 {
+    color: #0056b3;
+    margin-bottom: 5px;
+  }

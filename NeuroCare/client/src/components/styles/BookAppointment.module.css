@@ -1,0 +1,268 @@
+/* Intro Section */
+
+
+.introSection {
+  display: flex;
+  
+  margin-bottom: 10px;
+  /* background-color: #e9f7fe; */
+  padding: 0px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+}
+
+.introSection h3 {
+  font-size: 2.3rem;
+  color: rgb(111, 110, 110);
+  max-width: 70%; /* Adjust the width as needed */
+  text-align: justify;
+  padding-top: 60px;
+}
+
+.doctorImage {
+  width: 700px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 40px;
+}
+
+/* Add the rest of your existing styles here */
+
+
+.container {
+  padding: 30px;
+  max-width: 1400px;
+  /* margin: 20px auto; */
+  margin-left: 200px;
+  background-color: #f0f4f8; /* Light background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  min-height: 720px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 2.5rem;
+  color: #007bff;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #007bff; /* Accent border */
+  padding-bottom: 10px;
+}
+
+form {
+  display: inline;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+input[type="date"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s;
+}
+
+input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.bookingButton[type="submit"] {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.bookingButton[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+h3 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #343a40;
+  font-weight: 100;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.listItem {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.listItem:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+}
+
+.listItem p {
+  margin: 0px 0;
+  font-size: 1.1rem;
+  color: #495057;
+  display: inline-block;
+  padding-left: 80px;
+}
+
+.bookButton {
+  display: inline-block;
+
+  background-color: rgb(34, 172, 172);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 10%;
+  margin-left: 95px;
+  /* margin-bottom: 5%; */
+}
+
+.bookButton:hover {
+  background-color: rgb(26, 131, 131); /* Darker green on hover */
+}
+
+.dateLabel {
+  margin-left: 50px;
+  font-size: 1 rem;
+  color: rgb(98, 97, 97);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 2rem;
+  color: rgb(121, 120, 120);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 1px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1.5px;
+  padding-bottom: 1px;
+}
+
+  
+  
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background-color: #007bff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border-radius: 8px; */
+}
+
+.sidebarLink {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+.sidebarLink:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.logoutButton {
+  margin-top: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logoutButton:hover {
+  background-color: #0056b3;
+}
+
+.logoutImage {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+
+/* NeuroCare Logo and Heading */
+.neurocareLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.neurocareLogoImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff; /* White border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Active Link Styling */
+.activeLink {
+  background-color: #0056b3;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}

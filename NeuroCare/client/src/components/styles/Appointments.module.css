@@ -1,0 +1,195 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  .appointmentsList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .listItem p {
+    margin: 5px 0;
+  }
+  
+  /* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background-color: #007bff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border-radius: 8px; */
+}
+
+.sidebarLink {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+.sidebarLink:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.logoutButton {
+  margin-top: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logoutButton:hover {
+  background-color: #0056b3;
+}
+
+.logoutImage {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* NeuroCare Logo and Heading */
+.neurocareLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.neurocareLogoImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff; /* White border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Active Link Styling */
+.activeLink {
+  background-color: #0056b3;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.consultationButton {
+  background-color: rgb(34, 172, 172);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-right: 1%;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30%;
+  margin-left: 7%;
+}
+
+.prescriptionButton {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 28%;
+  margin-right: 1%;
+}
+
+.rescheduleButton {
+  background-color: #257abf;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 28%;
+  /* margin-right: 1%; */
+}
+
+.rescheduleButton:hover {
+  background-color: #155181;
+}
+
+.consultationButton:hover {
+  opacity: 0.8;
+  background-color: rgb(26, 131, 131);
+}
+
+.prescriptionButton:hover {
+  opacity: 0.8;
+}
+
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+.closeButton {
+  background-color: rgb(220, 29, 29);
+}
+
+.closeButton:hover {
+  background-color: red;
+}

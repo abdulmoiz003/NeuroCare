@@ -1,0 +1,50 @@
+/* Navbar.module.css */
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    width: 100%; /* Make the navbar full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px; /* Adjust padding as needed */
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    padding-right: 200px;
+  }
+  
+  .navbarLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbarLogo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbarBrand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbarRight {
+    display: flex;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 22px;
+    padding-left: 50px;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,83 @@
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  .error {
+    color: red;
+    margin: 10px 0;
+  }
+  
+  .success {
+    color: green;
+    margin: 10px 0;
+  }
+  
+  .ratingContainer {
+    margin: 20px 0;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .filledStar,
+  .emptyStar {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .filledStar {
+    color: gold;
+  }
+  
+  .emptyStar {
+    color: #ccc;
+  }
+  
+  .reviewInput {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reviewInput:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submitButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #388E3C;
+  }
+  

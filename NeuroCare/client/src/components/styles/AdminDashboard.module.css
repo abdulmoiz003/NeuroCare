@@ -1,0 +1,353 @@
+/* Base Styling */
+.dashboardContainer {
+    background-color: #f0f4f8;
+  
+    max-width: 1350px;
+    /* margin: 20px auto; */
+    font-family: 'Helvetica Neue', sans-serif;
+    position: relative;
+    margin-left: 190px;
+    height: 100%;
+    min-height: 720px;
+  }
+  /* Top Section */
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .welcomeMessage {
+    font-size: 2.5rem;
+    color: #007bff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  .profileContainer {
+    position: relative;
+  }
+  
+  .profileLink {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileImage {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    transition: transform 0.3s ease;
+  }
+  
+  .profileImage:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Main Section */
+  .mainSection {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 0px; */
+  }
+  
+  /* Menu Section */
+  .menuContainer {
+    width: 60%;
+  }
+  
+  
+  /* pic button text editing*/
+  .buttonText {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  /* Grid Buttons */
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  
+  .smallButton {
+    display: block;
+    width: 100%;
+    height: 160px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .smallButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .smallButton img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .smallButton .buttonText {
+    font-size: 1.2rem;
+  }
+  
+  /* Calendar Section */
+  .calendarContainer {
+    max-width: 400px;
+    background-color: #f8f9fa;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-height: 450px;
+  }
+  
+  .calendarHeading {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .calendar {
+    width: 100%;
+    margin-bottom: 15px;
+    
+  }
+  
+  .currentTime {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Add smooth animations for hover effects */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 200px;
+    background-color: #007bff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border-radius: 8px; */
+  }
+  
+  .sidebarLink {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .sidebarLink:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .logoutButton {
+    margin-top: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .logoutButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .logoutImage {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Main content adjusted to leave space for sidebar */
+  .mainContent {
+    margin-left: 90px;
+    /* padding: 20px; */
+    width: 1200px;
+  
+  
+  }
+  
+  /* NeuroCare Logo and Heading */
+  .neurocareLogoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .neurocareLogoImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff; /* White border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Active Link Styling */
+  .activeLink {
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  /* end sidebar styling */
+  
+  .doctor_table_container {
+      margin-top: 100px;
+    background-color: #fcfcfc; /* Softer background color */
+    /* Increased padding for more spacing */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+     max-height: 350px; /* Set a fixed height for the table container */
+    overflow-y: auto;  /* Enable vertical scrolling */
+     overflow-x: auto;
+     width: 700px;
+     /* margin-left: 30px; */
+    
+   
+    
+  }
+  .PieH{
+    margin-top: 5px;
+  }
+  .tablehead {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1; /* Optional: Set a background color for the header */
+    z-index: 1; /* Ensure the header stays on top of the scrolling content */
+  }
+  
+  /* Table Styling */
+  .tabletable {
+  
+    width: 650px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 26px;
+    
+    /* border-radius: 10%; */
+  }
+  
+  table .tth, table .ttd {
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    padding: 1px; 
+    text-align: center; /* Align text to left */
+    
+  }
+  
+  table .tth {
+    background-color: #007bff; /* Keep header background color to blue */
+    color: #fff; /* Header text color white */
+    text-transform: uppercase; /* Uppercase header text */
+    letter-spacing: 0.01em; /* Slight letter spacing */
+  }
+  
+  .approve_button{
+      
+      width: 100px;
+      height: 30px;
+      background-color: #0056b3;
+      margin-bottom: 5px;
+      margin: 5px;
+  }
+  .disapprove_button {
+    height: 30px;
+    margin: 5px;
+      width: 100px; 
+    background-color:rgb(233, 38, 38);
+  }
+  .disapprove_button:hover {
+    background-color:rgb(192, 20, 20);
+  }
+
+  .barchartheading {
+    margin-bottom: 2%;
+    margin-right: 12%;
+  }
+
+  .barchart {
+    margin-left: 11%;
+  }
+  
+  @media (max-width: 480px) {
+    .gridContainer {
+      display: block;
+      width: 200px;
+      padding: 30px;
+      
+  
+      
+    }
+    .dashboardContainer{
+      height: max-content;
+      width: max-content;
+    }
+    .sidebar {
+    display: none;
+  
+    }
+    .doctor_table_container {
+      max-width: 200px;
+    }
+    .menuContainer {
+    width: 20%;
+    }
+    .mainSection {
+    display: block;
+    padding-top: 100px;
+    justify-content: space-between;
+   
+    }
+    h2{
+     text-align:start;
+     margin-top: 50px; 
+    }
+   
+  
+  }

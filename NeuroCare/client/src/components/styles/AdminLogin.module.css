@@ -1,0 +1,101 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+   border-radius: 50px;
+   
+   
+  
+}
+
+.login-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 10px lightblue;
+  
+  width: 400px;
+  height: 400px;
+  border-color: #007bff;
+  
+   
+    
+}
+.loginSide-box{
+   box-shadow: 10px 10px 10px 10px lightblue;
+  background-color: #007bff;
+  padding: 20px;
+  
+  
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.loginSide-box-h{
+  margin-top: 100px;
+  color:white;
+  font-size: 2rem;
+}
+.loginSide-box-s{
+   
+   color:white;
+   font-size: 1rem;
+
+}
+.loginMain-h{
+  color:  007bff;
+   font-size: 3rem;
+
+}
+
+.error-message {
+  color: red;
+}
+
+.input-container {
+  margin-bottom: 10px;
+
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 3px;
+  border: 2px solid #007bff;
+  border-radius: 7px;
+
+}
+
+.loginButton{
+  margin-left: 50px;
+  margin-top: 30PX;
+  width: 60%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+   border: 1px 
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 60px;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

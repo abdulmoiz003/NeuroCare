@@ -1,0 +1,78 @@
+.calendarContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .navButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #606060; /* Dark grey color for arrows */
+  }
+  
+  .navButton:hover {
+    color: #007bff; /* Blue color on hover */
+    background-color: #e0f7fa;
+  }
+  
+  .monthYear {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .daysOfWeek {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .dayOfWeek {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .daysContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+  }
+  
+  .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .day:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .currentDay {
+    border: 2px solid #007bff; /* Highlight current date */
+    font-weight: bold;
+  }
+  
