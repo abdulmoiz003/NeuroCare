@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NeuroCare/static/css/main.6e2559ab.css",
+    "main.js": "/NeuroCare/static/js/main.88b9900f.js",
+    "static/js/453.419a5d54.chunk.js": "/NeuroCare/static/js/453.419a5d54.chunk.js",
+    "static/media/brain.logo.jpeg": "/NeuroCare/static/media/brain.logo.4ea1291d275891785935.jpeg",
+    "index.html": "/NeuroCare/index.html",
+    "main.6e2559ab.css.map": "/NeuroCare/static/css/main.6e2559ab.css.map",
+    "main.88b9900f.js.map": "/NeuroCare/static/js/main.88b9900f.js.map",
+    "453.419a5d54.chunk.js.map": "/NeuroCare/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e2559ab.css",
+    "static/js/main.88b9900f.js"
+  ]
+}
