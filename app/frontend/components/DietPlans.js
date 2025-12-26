@@ -15,7 +15,7 @@ export default function DietPlanForm() {
     const [dietPlan, setDietPlan] = useState('');
     const [loading, setLoading] = useState(false);
 
-    const API_KEY = "AIzaSyD1UppV7F7gfpxLc3N_YOp95Yp2xCKhzdw";
+    const API_KEY = "*****YOUR_API_KEY*****";
     const MODEL_NAME = "gemini-2.5-flash";
 
     const navigation = useNavigation(); 
